@@ -14,4 +14,19 @@ What value do you think it offers?
 	Staging area is different from working directory because it can contain only
 	some files, and from the repository because files there are still not
 	commited. It's useful because it allows to separate current changes to the
-	working directo
+	working directory
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+	By adding only the file changes related to this logical change to the
+	staging area before commiting
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+	They would be helpful when I would like to add some new thing that I'm not
+	sure I would like to keep, so I can add my changes to the new branch while
+	keeping the master branch safe. Also they could be good for working on some
+	separate feature adds separately (but likely it's more use when there is 
+	more than one person working on a project)
