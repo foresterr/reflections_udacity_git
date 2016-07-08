@@ -30,3 +30,16 @@ organized? How would branches help?
 	keeping the master branch safe. Also they could be good for working on some
 	separate feature adds separately (but likely it's more use when there is 
 	more than one person working on a project)
+
+How do the diagrams help you visualize the branch structure?
+
+	I can focus on the "flow" of commits, instead of getting distracted by their
+	id's, messages etc. And I can see many branches at once.
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+	The result is the branch we merged into contains all commits from both
+	branches. We represent it as two branches coming together into a single one,
+	because, I dunno, this is what happens?
+
