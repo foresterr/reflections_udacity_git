@@ -1,0 +1,17 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When I initialize a repository, Git creates its gitty stuff that it needs
+	to track my commits later on (which is contained in the .git directory).
+	And I need to do it because otherwise Git could not track my changes and
+	would be useless.
+	Actually, the above isn't clear. When I initialize a repository, Git creates
+	the repository in my working directory. I need to do it to be actually able
+	to make use of the repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	Staging area is different from working directory because it can contain only
+	some files, and from the repository because files there are still not
+	commited. It's useful because it allows to separate current changes to the
+	working directo
