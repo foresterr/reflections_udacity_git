@@ -43,3 +43,9 @@ the diagram the way we do?
 	branches. We represent it as two branches coming together into a single one,
 	because, I dunno, this is what happens?
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+	Pros: automatic is quick!
+	Cons: none I think, unless Git conflict detection can be unreliable in some
+	unusual cases
