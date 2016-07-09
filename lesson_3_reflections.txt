@@ -10,3 +10,21 @@ automatically stay up-to-date with your remote repository?
     Because someone might have introduced some changes in the meantime that
     would not play nice with my current work, and then I would have to resolve
     merge conflicts whenever they crop up and not when I want to.
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+    Clone is an exact copy of existing repository. Fork is similar, but on
+    Github. Branches are like versions within same repository. I'd use clone to
+    start a new project with the same base (or, to make a copy of a project that
+    I have access to locally). Fork I'd use if I wanted to play with somebody's
+    else project on Github (whether just for myself or to maybe contribute 
+    later). And I would use branches to work within a single project (creating 
+    new features, adding experimental changes, etc.)
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+    I can access it offline, so I can have an idea how my changes will interact
+    with the remote even if I can't access it at the moment.
+
