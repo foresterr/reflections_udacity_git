@@ -28,3 +28,29 @@ stored locally?
     I can access it offline, so I can have an idea how my changes will interact
     with the remote even if I can't access it at the moment.
 
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+    Easier: maybe that I don't need for everybody to create a GitHub account and
+    know how to use Git, so that everyone on the team knows how to collaborate
+    using those.
+
+    Harder: we'd have to make our own protocols from scratch, and they could be
+    suboptimal. We could maybe send all the files in the project back and forth,
+    but then we would send lots of stuff unnecessarily. Or we could have a
+    Dropbox folder, but then we'd risk overwriting each other's work in case
+    of conflicts.
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+    Separate branch is for when I want to add something new while keeping the
+    original version, which should be stable and working, safe. It also makes
+    even more sense when I'm modifying some larger project and want my changes
+    to get pulled later, then I want my master branch to stay mostly in synch
+    with the main master branch. So the benefit here is that the master stays 
+    safe and I can work on adding the change to it later when I'm happy with it.
+
+    Benefits of doing everything in master is that I don't have to merge later,
+    but then I have to keep everything on the same track and have much less
+    freedom to experiment.
